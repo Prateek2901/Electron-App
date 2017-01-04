@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+@import url(https://fonts.googleapis.com/css?family=Tangerine);
+@grid-columns: 12;
+@grid-gutter-width: 30px;
+@grid-float-breakpoint: 768px;
+body {
+    overflow: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    vertical-align: baseline;
+    horizontal-align: center;
+}
+
+#box {
+    position: relative;
+    min-width: 20vh;
+    width: auto;
+    max-width: 80vw;
+    display: block;
+    padding: 2vh 5vh 5vh 5vh;
+    height: auto;
+    max-height: 71vh;
+    margin-left: 10vh;
+    margin-right: auto;
+    margin-top: 15vh;
+}
+
+#new-quote {
+    margin-left: 50vw;
+    margin-top: 1vh;
+}
+
+.quote-text {
+    margin-top: 1vh;
+}
+
+.buttons {
+    margin: auto;
+    display: block;
+}
+
+#text {
+    font-family: 'Tangerine', serif;
+    font-size: 6vh;
+    font-weight: 500;
+}
+
+.quote-author {
+    font-family: 'Tangerine', serif;
+    font-size: 4vh;
+}
+
+footer {
+    color: #fff;
+    margin-top: 1px;
+    height: auto;
+    width: auto;
+}
