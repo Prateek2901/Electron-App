@@ -1,0 +1,23 @@
+{
+  "name": "App",
+  "version": "0.1.0",
+  "main": "./main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . QuoteMachine"
+  },
+  "devDependencies": {
+    "electron": "^1.4.13",
+    "electron-packager": "^8.4.0",
+    "jquery": "^3.1.1"
+  },
+  "description": "My first app.",
+  "author": {
+    "name": "Prateek Srivastava",
+    "email": "pratik9044536615@gmail.com"
+  },
+  "dependencies": {
+    "electron-plugins": "^0.1.0",
+    "electron-updater": "^0.3.1"
+  }
+}
