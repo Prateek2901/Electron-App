@@ -28,7 +28,7 @@ From your command line:
 # Clone this repository
 git clone https://github.com/Prateek2901/Electron-App.git
 # Go into the repository
-cd Electron-App
+cd Electron-App/QuoteMachine
 # Install dependencies
 npm install
 # Run the app
